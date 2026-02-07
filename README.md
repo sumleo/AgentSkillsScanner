@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
-This repository contains a comprehensive security benchmark dataset and evaluation framework for Claude Code Agent Skills. We collect __120,711 skills__ from two major platforms (skills.rest and skillsmp.com), including **157 malicious samples** identified through systematic security analysis.
+This repository contains a comprehensive security benchmark dataset and evaluation framework for Claude Code Agent Skills. We collect __98,380 skills__ from two major platforms (skills.rest and skillsmp.com), including **157 malicious samples** identified through systematic security analysis.
 
 ## Project Structure
 
@@ -10,13 +10,14 @@ This repository contains a comprehensive security benchmark dataset and evaluati
 MaliciousAgentSkillsBench/
 ├── data/                           # Benchmark datasets
 │   ├── malicious_skills.csv        # 157 malicious skill samples (curated)
-│   ├── skills_dataset.csv          # 120,711 total skills (157 malicious flagged)
+│   ├── skills_dataset.csv          # 98,380 total skills (157 malicious flagged)
 ├── code/                           # Security analysis framework
 │   ├── analyzer/                   # AI-powered deep security analysis
 │   ├── crawler/                    # Multi-platform data crawler
 │   ├── executor/                   # Dynamic execution in Docker sandbox
 │   ├── scanner/                    # Static rule-based security scanner
-│   └── scripts/                    # 8-step analysis pipeline
+│   └── scripts/                    # analysis pipeline
+│   └── ···                         # other files
 └── README.md                       # This file
 ```
 
@@ -52,7 +53,7 @@ Curated dataset of **157 verified malicious agent skills** from **69 unique repo
 - `Pattern`: Detected vulnerability patterns (semicolon-separated)
 
 #### `skills_dataset.csv`
-Complete dataset of **120,711 skills** with security classifications (157 flagged as malicious).
+Complete dataset of **98,380 skills** with security classifications (157 flagged as malicious).
 
 **Columns:**
 - `source`: Data source (skills.rest / skillsmp.com)
