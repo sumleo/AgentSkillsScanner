@@ -42,7 +42,7 @@ The code and data in this repository are intended exclusively for:
 ### Data Files
 
 #### `malicious_skills.csv`
-Curated dataset of **156 verified malicious agent skills** from **69 unique repositories**, with detailed vulnerability pattern classifications.
+Curated dataset of **157 verified malicious agent skills** from **69 unique repositories**, with detailed vulnerability pattern classifications.
 
 **Columns:**
 - `source`: Data source (skills.rest / skillsmp.com)
