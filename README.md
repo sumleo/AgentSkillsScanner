@@ -1,4 +1,4 @@
-# “Do Not Mention This to the User”: Detecting and Understanding Malicious Agent Skills
+# "Do Not Mention This to the User": Detecting and Understanding Malicious Agent Skills
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
