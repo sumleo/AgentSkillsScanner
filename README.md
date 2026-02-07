@@ -11,7 +11,6 @@ MaliciousAgentSkillsBench/
 ├── data/                           # Benchmark datasets
 │   ├── malicious_skills.csv        # 157 malicious skill samples (curated)
 │   ├── skills_dataset.csv          # 120,711 total skills (157 malicious flagged)
-│   └── README.md                   # Data documentation
 ├── code/                           # Security analysis framework
 │   ├── analyzer/                   # AI-powered deep security analysis
 │   ├── crawler/                    # Multi-platform data crawler
