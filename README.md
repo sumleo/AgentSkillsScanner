@@ -1,4 +1,4 @@
-# MaliciousAgentSkillsBench: A Security Benchmark for Claude Code Agent Skills
+# “Do Not Mention This to the User”: Detecting and Understanding Malicious Agent Skills
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -33,11 +33,11 @@ The code and data in this repository are intended exclusively for:
 
 ### Dataset Statistics
 
-| Source | Platform | Total Skills | Malicious | Safe | Suspicious |
-|--------|----------|--------------|-----------|------|------------|
-| skills.rest | GitHub Integration | 35,428 | 21 | 35,281 | 126 |
-| skillsmp.com | Community Platform | 85,283 | 136 | 84,604 | 543 |
-| **Total** | | **120,711** | **157** | **119,885** | **669** |
+| Source | Repos | Total Skills | Suspicious |Malicious |
+|--------|-------|--------------|-----------|------|
+| skills.rest | 3,217 | 25,187 |814|  21  |
+| skillsmp.com | 10,373 | 73,193 | 3,473 | 136 |
+| **Total** | **13,590**| **98,380** | **4,287** | **157** |
 
 ### Data Files
 
@@ -197,10 +197,9 @@ The goal of this work is to raise awareness of AI agent security risks and infor
 
 ```bibtex
 @misc{malicious_agent_skills_bench,
-  title={MaliciousAgentSkillsBench: A Security Benchmark for Claude Code Agent Skills},
-  author={TODO},
-  year={2025},
-  howpublished={\url{https://github.com/TODO/MaliciousAgentSkillsBench}}
+  title={“Do Not Mention This to the User”: Detecting and Understanding Malicious Agent Skills},
+  author={Anonymous},
+  year={2026},
 }
 ```
 
